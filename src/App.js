@@ -5,7 +5,7 @@ export default function App() {
   const[show,setShow]=useState(true);
   return (
     <>
-      <button onClick={()=>setFlag(!show)}>Switch</button>
+      <button onClick={()=>setShow(!show)}>Switch</button>
       {show && <Component/>}
     </>
   );
